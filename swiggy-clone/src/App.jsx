@@ -1,13 +1,23 @@
 import React from 'react'
 import './App.css'
 import { AiFillClockCircle } from "react-icons/ai";
+import Header from './Components/Header';
+import Category from './Components/Category';
+import TopRest from './Components/TopRest';
+import OnlineDelivery from './Components/OnlineDelivery';
+import Cusines from './Components/Cusines';
+import Footer from './Components/Footer';
 
 function App() {
 
   return (
     <>
-      <h1 className='font-extrabold text-yellow-500 text-9xl '>Hello<AiFillClockCircle className='text-blue-500'/></h1>
-      <h1 className='bg-slate-500'>Byb bye</h1>
+    <Header/>
+    <Category/>
+    <TopRest/>
+    <OnlineDelivery/>
+    <Cusines/>
+    <Footer/>
     </>
   )
 }
